@@ -24,3 +24,24 @@
   padding-top: 50px;
   padding-bottom: 300px;
 }
+@media (max-width: 750px) {
+  .socials {
+    padding-top: 40px;
+  }
+
+  .socials p {
+    font-size: 12px;
+    padding-bottom: 8px;
+  }
+  .commerce h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .commerce p {
+    font-size: 15px;
+    padding-top: 8px;
+  }
+  .social-media {
+    padding-top: 25px;
+  }
+}

@@ -61,11 +61,38 @@ site-developer {
   .developer-api {
     display: flex;
     flex-direction: column;
+    gap: 30px;
   }
   .develope .api-info {
     order: 1;
   }
   .develope .api-img {
     order: 0;
+  }
+  .site-developer .develop {
+    padding-top: 20px;
+    font-size: 12px;
+  }
+  .developer-info h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .developer-info p {
+    font-size: 14px;
+  }
+  .developer-info {
+    margin-top: 20px;
+  }
+  .developer-api {
+    margin-top: 30px;
+  }
+  .api-info h2 {
+    font-size: 30px;
+  }
+  .api-info p {
+    font-size: 15px;
+  }
+  .api-info button:last-child {
+    margin-bottom: 20px;
   }
 }

@@ -12,8 +12,8 @@
 .buttons {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 12px;
+  justify-content: space-around;
+  gap: 10px;
 }
 
 .all_button button:hover {
@@ -37,6 +37,16 @@
   .buttons {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
-    /* grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); */
+  }
+  .button {
+    margin-top: 20px;
+  }
+  .button-about h2 {
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+  .button-about p {
+    font-size: 16px;
+    padding-bottom: 15px;
   }
 }

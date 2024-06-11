@@ -41,6 +41,14 @@
     gap: 30px; */
     margin-top: 260px;
   }
+  .customer-service h3 {
+    font-size: 30px;
+  }
+  .customer-service h4 {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
   .customer-network {
     display: flex;
     flex-direction: column;

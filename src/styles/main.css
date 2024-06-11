@@ -47,13 +47,19 @@
 }
 @media (max-width: 800px) {
   .site-about h1 {
-    font-size: 42px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 48px;
   }
   .site-about p {
-    font-size: 18px;
+    padding-top: 16px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
   }
   .site-about {
     padding-bottom: 180px;
+    padding-top: 30px;
   }
 }
 @media (max-width: 600px) {
