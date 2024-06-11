@@ -1,0 +1,73 @@
+.customer-service {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: top;
+  gap: 30px;
+  margin-top: 360px;
+}
+.customer-service h3 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.customer-service h4 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #212529;
+}
+.customer-network {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-content: space-between;
+}
+.faq {
+  padding-top: 20px;
+}
+.faq h5 {
+  font-size: 18px;
+  border-bottom: 1px solid #e3ebff;
+  padding: 10px 0 10px 0;
+}
+.faq p {
+  font-size: 16px;
+  padding-top: 20px;
+}
+@media (max-width: 750px) {
+  .customer-service {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    /* align-items: top;
+    gap: 30px; */
+    margin-top: 260px;
+  }
+  .customer-network {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 670px) {
+  .customer-service {
+    margin-top: 210px;
+  }
+}
+@media (max-width: 570px) {
+  .customer-service {
+    margin-top: 180px;
+  }
+}
+@media (max-width: 470px) {
+  .customer-service {
+    margin-top: 140px;
+  }
+}
+@media (max-width: 370px) {
+  .customer-service {
+    margin-top: 110px;
+  }
+}
+@media (max-width: 270px) {
+  .customer-service {
+    margin-top: 80px;
+  }
+}

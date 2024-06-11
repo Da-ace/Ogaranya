@@ -1,0 +1,82 @@
+.all a:hover {
+  color: #273765;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.all-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.input img {
+  width: 220px;
+  /* padding-bottom: 10px; */
+}
+.input p {
+  color: #212529;
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 400px;
+}
+
+.home h5,
+.about h5,
+.properties h5,
+.services h5,
+.contact h5 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #999999;
+  padding-bottom: 4px;
+}
+.home p,
+.about p,
+.properties p,
+.services p,
+.contact p {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 8px;
+}
+
+@media (max-width: 870px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .all-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .all-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}
+@media (max-width: 430px) {
+  .all-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 30px;
+  }
+}
+@media (max-width: 330px) {
+  .all-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 30px;
+  }
+}
